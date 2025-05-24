@@ -157,7 +157,7 @@ const animationTimeline = () => {
         )
         .staggerFrom(
             ".idea-6 span",
-            1.7, {
+            5.5 {
             scale: 3,
             opacity: 0,
             rotation: 15,
@@ -167,14 +167,14 @@ const animationTimeline = () => {
         )
         .staggerTo(
             ".idea-6 span",
-            1.7, {
+            5.5, {
             scale: 3,
             opacity: 0,
             rotation: -15,
             ease: Expo.easeOut,
         },
             0.2,
-            "+=1.0"
+            "+=1.5"
         )
         .staggerFrom(
             ".wish-hbd span",
