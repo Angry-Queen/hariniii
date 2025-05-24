@@ -174,7 +174,7 @@ const animationTimeline = () => {
             ease: Expo.easeOut,
         },
             0.2,
-            "+=1.5"
+            "+=1.1"
         )
         .staggerFrom(
             ".wish-hbd span",
