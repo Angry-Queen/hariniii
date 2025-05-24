@@ -157,7 +157,7 @@ const animationTimeline = () => {
         )
         .staggerFrom(
             ".idea-6 span",
-            1.8 {
+            3.5 ,{
             scale: 3,
             opacity: 0,
             rotation: 15,
@@ -167,7 +167,7 @@ const animationTimeline = () => {
         )
         .staggerTo(
             ".idea-6 span",
-            1.8, {
+            3.5 , {
             scale: 3,
             opacity: 0,
             rotation: -15,
